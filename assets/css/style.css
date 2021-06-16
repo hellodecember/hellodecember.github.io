@@ -47,9 +47,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/**************************************************************
+                  ******* Header *******
+***************************************************************/
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -91,29 +91,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 6px;
 }
 
-#header .social-links {
-  margin-top: 40px;
-  display: flex;
-}
-
-#header .social-links a {
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  line-height: 1;
-  margin-right: 8px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
-
-#header .social-links a:hover {
-  background: #ff00ff;
-}
-
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
@@ -121,9 +98,6 @@ h1, h2, h3, h4, h5, h6 {
   #header h2 {
     font-size: 20px;
     line-height: 30px;
-  }
-  #header .social-links {
-    margin-top: 15px;
   }
   #header .container {
     display: flex;
@@ -348,9 +322,9 @@ section .container {
   line-height: 1px;
   margin: 0 0 20px 0;
   letter-spacing: 2px;
-  text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  text-transform: lowercase;
 }
 
 .section-title h2::after {
@@ -358,7 +332,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #00ffff;
   margin: 4px 10px;
 }
 
@@ -367,8 +341,7 @@ section .container {
   margin: -15px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #fff;
 }
 
@@ -737,7 +710,7 @@ section .container {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -746,14 +719,13 @@ section .container {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
-  text-transform: uppercase;
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
@@ -761,11 +733,11 @@ section .container {
   border-radius: 4px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+.portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
+  background: #00ffff;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
